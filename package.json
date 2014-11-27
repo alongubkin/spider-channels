@@ -1,6 +1,6 @@
 {
   "name": "spider-channels",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Channels Library for Spider",
   "main": "lib/spider-channels.js",
   "scripts": {
