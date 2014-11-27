@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "Apache"
+  "author": "Alon Gubkin",
+  "license": "Apache",
   "repository": {
     "type": "git",
     "url": "https://github.com/alongubkin/spider-channels"
-  },  
+  },
   "keywords": [
     "spider",
     "channels"
-  ],  
+  ]
 }
