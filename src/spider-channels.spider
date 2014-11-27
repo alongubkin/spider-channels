@@ -1,0 +1,26 @@
+fn Channel() {
+  this.values = [];
+  this.listeners = [];
+  
+  this.get = fn() {
+    if this.values.length > 0 {
+      return Promise.resolve(this.values.pop());
+    } else {
+      return new Promise((resolve) => {
+        this.listeners.push(resolve);
+      });
+    }
+  };
+
+  this.push = fn(x) {
+    if this.listeners.length > 0 {
+      this.listeners.pop()(x);
+    } else {
+      this.values.push(x);
+    }
+  };
+}
+
+if ::exports? {
+  ::exports.Channel = Channel;
+}

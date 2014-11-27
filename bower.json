@@ -1,0 +1,25 @@
+{
+  "name": "spider-channels",
+  "version": "0.0.0",
+  "authors": [
+    "Alon gubkin <alon.gubkin@gmail.com>"
+  ],
+  "description": "Channels Library for Spider",
+  "main": "lib/spider-channels.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "spider",
+    "channels"
+  ],
+  "license": "Apache",
+  "homepage": "http://spiderlang.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
