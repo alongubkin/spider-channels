@@ -7,9 +7,9 @@ spider-channels
 
 Node.js
 
-    npm install -g spider-channels
+    npm install --save spider-channels
 
 Bower
 
-    bower install spider-channels
+    bower install --save spider-channels
   
